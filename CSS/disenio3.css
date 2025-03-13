@@ -1,0 +1,59 @@
+.contenedor {
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 200px 100px 100px 300px 200px ;
+    display: grid;
+    grid-template-areas: 
+    "cabe cabe cabe cabe"
+    "cont cont cont menuu"
+    "cont cont cont sesi"
+    "bla1 bla2 bla3 bla4"
+    "ho ho ho ho"
+    ;
+
+    color: white;
+}
+
+header { 
+    background-color: black;
+    grid-area: cabe;
+}
+
+#cont1 {
+    background-color: yellow;
+    grid-area: cont;
+}
+
+#men {
+    background-color: blue;
+    grid-area: menuu;
+}
+
+#ini {
+    background-color: cadetblue;
+    grid-area: sesi;
+}
+
+#blaco1 {
+    background-color: gray;
+    grid-area: bla1;
+}
+
+#blaco2 {
+    background-color: rgb(182, 82, 82);
+    grid-area: bla2;
+}
+
+#blaco3 {
+    background-color: rgb(46, 4, 4);
+    grid-area: bla3;
+}
+
+#blaco4 {
+    background-color: rgb(128, 107, 107);
+    grid-area: bla4;
+}
+
+footer {
+    background-color: black;
+    grid-area: ho;
+}

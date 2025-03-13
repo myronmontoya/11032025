@@ -1,0 +1,41 @@
+.contenedor {
+    grid-template-columns: 300px 840px 300px;
+    grid-template-rows: 350px 900px 50px;
+    display: grid;
+    grid-template-areas: 
+    "enc enc enc"
+    "men sec log"
+    "pie pie pie"
+
+    ;
+}
+
+header {
+    background-color: blue;
+    grid-area: enc;
+    color: white;
+}
+
+main {
+    background-color: aqua;
+    grid-area: men;
+}
+
+section {
+    background-color: tomato;
+    grid-area: sec;
+    color: white;
+}
+
+nav {
+    background-color: chocolate;
+    grid-area: log;
+    color: white;
+}
+
+footer { 
+    background-color: black;
+    grid-area: pie;
+    color: white;
+    text-align: center;
+}

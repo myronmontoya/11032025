@@ -1,0 +1,109 @@
+.contenedor {
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: 200px 300px 400px 200px 150px 200px;
+    display: grid;
+    grid-template-areas: 
+    "pri seg ter cuar quin sex sep oct nov"
+    "dec dec dec onc onc onc doc doc doc"
+    "tre tre tre tre tre cator cator cator cator"
+    "quincn quincn quincn quincn quincn quincn quincn quincn ete"
+    "ocho ocho ocho ocho ocho ocho ocho ocho ocho"
+    "veint diecinue diecinue diecinue diecinue diecinue diecinue diecinue diecinue"
+    ;
+}
+
+#primero{
+    background-color: red;
+    grid-area: pri;
+}
+
+#segundo{
+    background-color: rgb(0, 24, 238);
+    grid-area: seg;
+}
+
+#tercero{
+    background-color: rgb(0, 255, 128);
+    grid-area: ter;
+}
+
+#cuarto{
+    background-color: rgb(243, 32, 4);
+    grid-area: cuar;
+}
+
+
+#quinto{
+    background-color: red;
+    grid-area: quin;
+}
+
+#sexto{
+    background-color: rgb(216, 210, 210);
+    grid-area: sex;
+}
+
+#septimo{
+    background-color: rgb(231, 0, 0);
+    grid-area: sep;
+}
+
+#octavo{
+    background-color: rgb(134, 4, 4);
+    grid-area: oct;
+}
+
+#noveno{
+    background-color: rgb(241, 50, 50);
+    grid-area: nov;
+}
+
+#decimo{
+    background-color: rgb(157, 255, 0);
+    grid-area: dec;
+}
+
+#once{
+    background-color: rgb(17, 0, 255);
+    grid-area: onc;
+}
+
+#doce{
+    background-color: rgb(157, 255, 0);
+    grid-area: doc;
+}
+
+#trece{
+    background-color: rgb(78, 124, 4);
+    grid-area: tre;
+}
+
+#catorce{
+    background-color: rgb(172, 209, 142);
+    grid-area: cator;
+}
+
+#quince{
+    background-color: rgb(253, 58, 24);
+    grid-area: quincn;
+}
+
+#dieciseis{
+    background-color: rgb(163, 25, 1);
+    grid-area: ete;
+}
+
+#dieciocho{
+    background-color: rgb(0, 0, 0);
+    grid-area: ocho;
+}
+
+#diecinueve{
+    background-color: rgb(163, 25, 1);
+    grid-area: diecinue;
+}
+
+#veinte{
+    background-color: rgb(233, 116, 116);
+    grid-area: veint;
+}

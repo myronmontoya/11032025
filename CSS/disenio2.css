@@ -1,0 +1,71 @@
+.content {
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 350px 125px 500px 50px;
+    display: grid;
+    grid-template-areas: 
+    "ban ban ban ban" 
+    "pagi1 pagi2 pagi3 pagi4"
+    "se ar ar as"
+    "pie pie pie pie"
+    ;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-shadow: red 10px 10px 10px;
+}
+
+
+header { 
+    background-color: black;
+    grid-area: ban;
+    text-align: center;
+
+}
+
+/*  primera seccion */
+#pag1 {
+    background-color: green;
+    grid-area: pagi1;
+}
+
+#pag2 {
+    background-color: blue;
+    grid-area: pagi2;
+}
+
+#pag3 {
+    background-color: green;
+    grid-area: pagi3;
+}
+
+#pag4 {
+    background-color: blue;
+    grid-area: pagi4;
+}
+
+/* segunda seccion */
+
+#sec {
+    background-color: yellow;
+    grid-area: se;
+}
+
+#art {
+    background-color: aqua;
+    grid-area: ar;
+}
+
+#asi { 
+    background-color: burlywood;
+    grid-area: as;
+}
+
+/* pie de pagina */
+
+footer {
+    background-color: green;
+    grid-area: pie;
+}
